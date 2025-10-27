@@ -43,7 +43,7 @@ where
     }
 }
 
-const MAX_DATA_POINTS_LIMIT: usize = 1000;
+const MAX_DATA_POINTS_LIMIT: usize = 10_000_000;
 
 pub async fn render_svg(
     state: &SharedAppState,
